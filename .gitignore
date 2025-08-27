@@ -1,0 +1,21 @@
+# Build output
+/target/
+
+# Database and runtime files
+data.db
+app.log
+.app_pid
+
+# IDE/editor
+/.idea/
+/.vscode/
+*.iml
+
+# macOS
+.DS_Store
+
+# Logs
+logs/
+
+# Class files
+*.class
