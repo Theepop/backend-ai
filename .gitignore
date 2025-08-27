@@ -2,7 +2,7 @@
 /target/
 
 # Database and runtime files
-data.db
+# data.db
 app.log
 .app_pid
 

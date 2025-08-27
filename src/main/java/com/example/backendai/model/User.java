@@ -9,6 +9,12 @@ public class User {
     private String phone;
     private String birthday;
 
+    // additional fields to support UI
+    private String memberCode;
+    private String membershipLevel;
+    private String registerDate;
+    private Integer points;
+
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
 
@@ -29,4 +35,16 @@ public class User {
 
     public String getBirthday() { return birthday; }
     public void setBirthday(String birthday) { this.birthday = birthday; }
+
+    public String getMemberCode() { return memberCode; }
+    public void setMemberCode(String memberCode) { this.memberCode = memberCode; }
+
+    public String getMembershipLevel() { return membershipLevel; }
+    public void setMembershipLevel(String membershipLevel) { this.membershipLevel = membershipLevel; }
+
+    public String getRegisterDate() { return registerDate; }
+    public void setRegisterDate(String registerDate) { this.registerDate = registerDate; }
+
+    public Integer getPoints() { return points; }
+    public void setPoints(Integer points) { this.points = points; }
 }
